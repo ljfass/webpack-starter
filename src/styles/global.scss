@@ -1,0 +1,11 @@
+@use "variables";
+
+body {
+  background: variables.$bg;
+  color: var(--text);
+  background-image: url("../images/IMG_6769.JPG");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
